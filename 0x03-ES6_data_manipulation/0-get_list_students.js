@@ -1,4 +1,4 @@
-export const getListStudents = () => [
+const getListStudents = () => [
   {
     id: 1,
     firstName: 'Guillaume',
@@ -15,3 +15,5 @@ export const getListStudents = () => [
     location: 'San Francisco',
   },
 ];
+
+export default getListStudents;
