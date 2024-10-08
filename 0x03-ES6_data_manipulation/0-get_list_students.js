@@ -1,4 +1,4 @@
-export default getListStudents = () => [
+export const getListStudents = () => [
   {
     id: 1,
     firstName: 'Guillaume',
